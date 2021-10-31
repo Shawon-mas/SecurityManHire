@@ -1,0 +1,36 @@
+package com.example.vcms;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.os.Handler;
+import android.view.View;
+import android.widget.Button;
+import android.widget.RelativeLayout;
+public class Narail extends AppCompatActivity {
+    Button buttonlogin;
+    RelativeLayout rl1,rl2;
+    Handler handler= new Handler();
+    Runnable runnable=new Runnable() {
+        @Override
+        public void run() {
+            rl1.setVisibility(View.VISIBLE);
+            rl2.setVisibility(View.VISIBLE);
+
+        }
+    };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_narail);
+
+        buttonlogin=findViewById(R.id.login);
+
+        rl1=findViewById(R.id.relay1);
+        rl2=findViewById(R.id.relay2);
+
+        handler.postDelayed(runnable,2000);
+
+    }
+}

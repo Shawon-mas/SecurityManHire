@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SecurityManBorrow</string>
+    <string name="edittext_1">User name</string>
+    <string name="edittext_2">Password</string>
+    <string name="textView">Not a Member ?</string>
+    <string name="textView1">Register</string>
+    <string name="button_1">LOG IN</string>
+    <string name="button_2">SIGN UP</string>
+</resources>

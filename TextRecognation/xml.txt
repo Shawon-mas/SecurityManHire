@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8D6479AF"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        >
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgs"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/search"/>
+
+
+        <EditText
+            android:layout_marginTop="9dp"
+            android:id="@+id/txtimage"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit_round"
+            android:hint="Text from Image"
+            android:paddingLeft="100dp"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgc"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/camera" />
+
+    </LinearLayout>
+
+
+    <ImageView
+       android:id="@+id/imageS"
+       android:layout_width="match_parent"
+       android:layout_height="350dp"/>
+
+
+</LinearLayout>

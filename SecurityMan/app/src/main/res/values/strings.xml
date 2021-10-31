@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SecurityManBorrow</string>
+    <string name="edittext_1">Email</string>
+    <string name="edittext_2">Password</string>
+    <string name="edittext_fn">First Name</string>
+    <string name="edittext_ln">Last Name</string>
+    <string name="edittext_ad">Address</string>
+    <string name="edittext_em">Email</string>
+    <string name="edittext_pn">Phone Number</string>
+    <string name="edittext_us">User Name</string>
+    <string name="edittext_pass">Password</string>
+    <string name="display_id">Display Data</string>
+
+
+    <string name="textView1">Register</string>
+    <string name="button_1">LOG IN</string>
+    <string name="button_2">SIGN UP</string>
+    <string name="profile">My Profile</string>
+    <string name="Order">My Order</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone Number</string>
+    <string name="details">Mahabub Alam Shawon.
+                  Daffodil International University.
+    Bsc In Computer Science and Engineering </string>
+
+    <string-array name="event_name">
+        <item>Choose Event</item>
+        <item> 1.Weeding </item>
+        <item> 2.Office </item>
+        <item> 3.Bank </item>
+        <item> 4.Atm Booth </item>
+        <item> 5.University </item>
+        <item> 6.College </item>
+        <item> 7.School </item>
+        <item> 8.Personal </item>
+        <item> others </item>
+
+
+    </string-array>
+</resources>

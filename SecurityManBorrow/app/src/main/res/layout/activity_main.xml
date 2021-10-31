@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+   <EditText
+       android:id="@+id/etusername"
+       android:layout_width="160dp"
+       android:layout_height="wrap_content"
+       android:background="#ffff"
+       android:layout_marginTop="220dp"
+       android:textSize="20sp"
+       android:textStyle="bold"
+
+
+       android:hint="@string/edittext_1"
+
+       />
+   <EditText
+       android:id="@+id/etpassword"
+       android:layout_width="160dp"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:background="#ffff"
+       android:layout_marginTop="20dp"
+       android:textStyle="bold"
+       android:hint="@string/edittext_2"
+
+       />
+
+
+  <Button
+      android:id="@+id/blogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:hint="@string/button_1"
+      />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/textView"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tvregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="#0bd1a6"
+            android:hint="@string/textView1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
